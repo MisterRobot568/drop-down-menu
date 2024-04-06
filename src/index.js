@@ -1,13 +1,5 @@
-console.log('Webpack working');
-console.log('hello');
-console.log('hello');
-const test = 'hello';
-console.log('shit');
-function testing(string) {
-    console.log(string);
-    if (3 > 2) {
-        console.log('hello');
-    }
-}
+import Revealer from './revealer.js';
 
-testing('hello');
+const revealerTest = new Revealer('drop-down-1');
+const revealerTest2 = new Revealer('drop-down-2');
+const revealerTest3 = new Revealer('div');
